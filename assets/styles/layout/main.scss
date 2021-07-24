@@ -2,4 +2,9 @@
 @import "../../components/header/styles.scss";
 @import "../../components/form/styles.scss";
 
-@import url("http://fonts.googleapis.com/css?family=Roboto");
+// @import url("http://fonts.googleapis.com/css?family=Roboto");
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
