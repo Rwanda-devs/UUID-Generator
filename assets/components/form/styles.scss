@@ -1,0 +1,79 @@
+* {
+  font-family: Roboto;
+}
+#form {
+  border: 2px solid #257aaa;
+  border-radius: 1rem;
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  &_title {
+    background-color: #257aaa;
+    width: 35rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+  }
+  &_copy {
+    margin: 1rem 0rem 1rem 0rem;
+    & > b {
+      font-size: 1rem;
+      margin-right: 1rem;
+    }
+    & > button {
+      font-size: 1rem;
+      background-color: #ff8ea9;
+      padding: 0.5rem;
+      border: none;
+      &:hover {
+        cursor: pointer;
+        background-color: #e65f7f;
+      }
+    }
+  }
+  &_subtitle {
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+}
+form {
+  margin: 1rem 0rem 2rem 0rem;
+  & > input {
+    width: 10rem;
+    height: 2rem;
+    &::placeholder {
+      text-align: center;
+    }
+  }
+  & > button {
+    height: 2.5rem;
+    width: 10rem;
+    color: white;
+    background-color: #257aaa;
+    border: none;
+    &:hover {
+      cursor: pointer;
+      background-color: #1c5272;
+    }
+  }
+}
+#download {
+  background-color: #f5bbc8;
+  border: none;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  &:hover {
+    cursor: pointer;
+    background-color: #ff8ea9;
+  }
+}
+.icon {
+  margin-right: 0.7rem;
+}

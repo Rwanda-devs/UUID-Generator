@@ -1,0 +1,26 @@
+nav {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  max-width: 100%;
+}
+#sub_heading {
+  text-align: center;
+  font-size: 2rem;
+}
+#forms {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+#or {
+  writing-mode: vertical-rl;
+  & > span {
+    margin-right: 0.8rem;
+    writing-mode: horizontal-tb;
+    text-align: center;
+  }
+}
